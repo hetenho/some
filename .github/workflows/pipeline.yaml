@@ -1,9 +1,8 @@
 name: Pipeline
-on:
-  push:
-    branches:
-      - 'main'
-      - 'feature**'
+on: push
+  branches:
+    - 'main'
+    - 'feature**'
   delete:
     branches:
       - 'feature**'
