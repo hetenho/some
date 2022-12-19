@@ -23,10 +23,10 @@ env:
   # TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   TESTING_REGION: eu-central-1
   PROD_STACK_NAME: sam-app
-  PROD_PIPELINE_EXECUTION_ROLE: [A[B
-  PROD_CLOUDFORMATION_EXECUTION_ROLE: [A
-  PROD_ARTIFACTS_BUCKET: [A
-  PROD_IMAGE_REPOSITORY: [A
+  PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::485468915538:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-1BJDI58LY7PZS
+  PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::485468915538:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-4FOUM679PDOJ
+  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-prod-pipeline-artifactsbucket-bxxlg0dauvub
+  PROD_IMAGE_REPOSITORY: '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   PROD_REGION: eu-central-1
 
 jobs:
